@@ -20,13 +20,16 @@ int main()
 
 	EX5_01(); //Ex05_01
 
+	cout << " " << endl;
 	int* p = doubleCapacity(list, 6); //EX05_02 function
 	printArray(p, 12); //shows six empty spaces at the end
-
+	cout << " " << endl;
+	cout << "What is the smallest number?" << endl;
 
 	int f = smallest(list2, 9); //EX05_3 function
 	cout << f << endl; //shows the smallest of the array which is -22
 
+	cout << " " << endl;
 	Rectangle2D r1(2.00, 2.00, 5.5, 4.9); //EX05_04 class test
 	Rectangle2D r2(4, 5, 10.5, 3.2);
 	Rectangle2D r3(3, 5, 2.3, 5.4);
@@ -37,7 +40,7 @@ int main()
 	cout << "Does r1 contain r2? " << r1.contains(r2) << "." << endl; //shows false
 	cout << "Does r3 overlap r1? " << r1.overlaps(r3) << "." << endl; //shows true
 
-
+	cout << " " << endl;
 
 	Course c1("Graph Theory", 5); //EX05_05 class test
 	c1.addStudent("Danny"); //adds students to the c1 course called "Graph Theory"
