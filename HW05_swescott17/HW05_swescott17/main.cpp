@@ -4,6 +4,10 @@
 #include "EX05_05.h"
 using namespace std;
 
+/*Derek- This looks real, except you have everything in here as a source file, but the only source files are your cpps the others need moved to header file other than that it is awesome. 
+97/80
+*/
+
 void printArray(const int* list, int size) //prints the array for Ex05_02
 {
 	for (int i = 0; i < size; i++)
